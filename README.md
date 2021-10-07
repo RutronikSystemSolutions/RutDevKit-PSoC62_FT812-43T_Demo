@@ -2,7 +2,7 @@
 
 Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 "RutDevKit-PSoC62_FT812-43T_Demo" Demo Application. 
 
-This example demonstrates the usage of the 4D Systems FT812 based 4.3" display with integrated capacitive touch panel. The display is driven using SPI interface therefore the adapter for Arduino headers is needed. The adapter has IO buffer to decrease the interference in SPI wires. 
+This example demonstrates the usage of the 4D Systems FT812 based 4.3" display with integrated resistive touch panel. The display is driven using SPI interface therefore the adapter for Arduino headers is needed. The adapter has IO buffer to decrease the interference in SPI wires. 
 
  <img src="images/rutdevkit_model.png" style="zoom:20%;" />
 
@@ -18,7 +18,7 @@ The example was ported from the **"EVE2 / EVE3 / EVE4 code library"** provided b
 
 [`https://github.com/RudolphRiedel/FT800-FT813`](https://github.com/RudolphRiedel/FT800-FT813)
 
-The demo application has static display features and  rotating  image introducing with EVE capabilities. The image rotation m;ay be started or stopped using a button on the screen. 
+The demo application has static display features and  rotating  image introducing with EVE capabilities. The image rotation may be started or stopped using a button on the screen. 
 
 <img src="images/demo_running.jpg" style="zoom:25%;" />
 
